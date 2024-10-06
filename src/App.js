@@ -6,7 +6,7 @@ import ActiveSessionsChart from './components/ActiveSessionsChart';
 import ErrorBoundary from './components/ErrorBoundary';
 
 // Constants
-const SOCKET_URL = 'http://localhost:4000';
+const SOCKET_URL = 'https://dashboardbackend-rkqp.onrender.com';
 
 function App() {
   const [activities, setActivities] = useState([]);
